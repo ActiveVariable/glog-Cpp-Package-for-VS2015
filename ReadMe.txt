@@ -10,6 +10,7 @@ Note:
 #include "glog/logging.h"
 #include "glog/log_severity.h"
 using namespace google;
+3.Make minor modifications on glog, add the suffix ". log" to the log name, and surround the log level in the log entries with middle brackets for easy searching.
 
 Package使用说明
 简单两步,在你的C++工程中使用glog:
@@ -23,4 +24,5 @@ Package使用说明
 #include "glog/logging.h"
 #include "glog/log_severity.h"
 using namespace google;
+3.在glog上做了小修改,日志名添加后缀.log，日志条目中的日志等级用中括号包围,便于查找
 
