@@ -1,7 +1,14 @@
-Package使用说明
+Package usage instructions
 
+In three simple steps, use GLOG in your C++ project:
+1. Create an empty folder under your project directory, named Package
+2. Copy the package needed under Package into the new empty Package folder
+3. In your project catalog, open the property manager and add the corresponding property page from "Package/props" to your project.
+Note: Property pages can be uninstalled in Property Manager, but do not delete property pages directly into folders, otherwise the project will refuse to access.
+
+Package使用说明
+简单三步,在你的C++工程中使用glog:
 1、在你的工程目录下新建一个空文件夹，文件夹名为Package
 2、将Package下需要用到的包拷贝到新建的空Package文件夹中
 3、在你的工程目录中，打开属性管理器，从Package/props中添加相应的属性页到你的工程中
-
 注意:属性页可以在属性管理器中卸载，但不要直接到文件夹中删除属性页，否则会导致工程无法打开
